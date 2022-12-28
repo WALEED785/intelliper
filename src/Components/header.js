@@ -12,7 +12,7 @@ export default function Header() {
             <div className="pull-left logo-box">
               <div className="logo">
                 <a href="#">
-                  <img src={logo} alt="" title="" />
+                  <img src={logo} alt="Site Logo" title="" />
                 </a>
               </div>
             </div>
