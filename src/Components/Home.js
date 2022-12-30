@@ -35,6 +35,9 @@ import Footer from "./Footer";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+
+
+
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -53,6 +56,16 @@ const responsive = {
   }
 };
 export default function Home() {
+  
+  const CustomRightArrow = ({ onClick, ...rest }) => {
+    const {
+      onMove,
+      carouselState: { currentSlide, deviceType }
+    } = rest;
+    // onMove means if dragging or swiping in progress.
+    return <button onClick={() => onClick()} />;
+  };
+  
   return (
     <div>
       <div className="page-wrapper">
@@ -726,126 +739,42 @@ export default function Home() {
         <section className="case-study-section-two">
           <div className="auto-container">
             <div className="sec-title style-two centered">
-              <div className="title">Case studies</div>
+              <div className="title">`Case studies</div>
               <h2>Digital IT Case studies</h2>
             </div>
           </div>
-<Carousel
-  swipeable={false}
-  draggable={false}
-  showDots={true}
-  responsive={responsive}
-  ssr={true} // means to render carousel on server-side.
-  infinite={true}
-  // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-  autoPlaySpeed={1000}
-  keyBoardControl={true}
-  customTransition="all .5"
-  transitionDuration={500}
-  containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
-  // deviceType={this.props.deviceType}
-  dotListClass="custom-dot-list-style"
-  itemClass="carousel-item-padding-40-px"
->
-  <div><img src={case20} alt="" /></div>
-  <div><img src={case21} alt="" /></div>
-  <div><img src={case22} alt="" /></div>
-  <div><img src={case20} alt="" /></div>
-  <div><img src={case21} alt="" /></div>
-  <div><img src={case22} alt="" /></div>
-</Carousel>;
-          {/* <div className="outer-container">
-            <div className="case-carousel-two owl-carousel owl-theme">
-              <div className="case-block-four">
-                <div className="inner-box">
-                  <div className="image">
-                    <img src={case20} alt="" />
-                    <div className="overlay-box">
-                      <div className="overlay-inner">
-                        <h4>
-                          <a href="case-detail.html">
-                            Modern Technology Agency & Copany Sequrity
-                          </a>
-                        </h4>
-                        <div className="designation">Security and Software</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="case-block-four">
-                <div className="inner-box">
-                  <div className="image">
-                    <img src={case21} alt="" />
-                    <div className="overlay-box">
-                      <div className="overlay-inner">
-                        <h4>
-                          <a href="case-detail.html">
-                            Modern Technology Agency & Copany Sequrity
-                          </a>
-                        </h4>
-                        <div className="designation">Security and Software</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="case-block-four">
-                <div className="inner-box">
-                  <div className="image">
-                    <img src={case22} alt="" />
-                    <div className="overlay-box">
-                      <div className="overlay-inner">
-                        <h4>
-                          <a href="case-detail.html">
-                            Modern Technology Agency & Copany Sequrity
-                          </a>
-                        </h4>
-                        <div className="designation">Security and Software</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="case-block-four">
-                <div className="inner-box">
-                  <div className="image">
-                    <img src={case22} alt="" />
-                    <div className="overlay-box">
-                      <div className="overlay-inner">
-                        <h4>
-                          <a href="case-detail.html">
-                            Modern Technology Agency & Copany Sequrity
-                          </a>
-                        </h4>
-                        <div className="designation">Security and Software</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="case-block-four">
-                <div className="inner-box">
-                  <div className="image">
-                    <img src={case22} alt="" />
-                    <div className="overlay-box">
-                      <div className="overlay-inner">
-                        <h4>
-                          <a href="case-detail.html">
-                            Modern Technology Agency & Copany Sequrity
-                          </a>
-                        </h4>
-                        <div className="designation">Security and Software</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
+          <Carousel
+            customRightArrow={<CustomRightArrow />}
+            arrows={false} 
+            swipeable={false}
+            draggable={false}
+            showDots={true}
+            responsive={responsive}
+            ssr={true}
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed={1000}
+            keyBoardControl={true}
+            customTransition="all .5"
+            transitionDuration={500}
+            containerClass="carousel-container"
+            removeArrowOnDeviceType={["tablet", "mobile"]}
+            dotListClass="custom-dot-list-style"
+            itemClass="carousel-item-padding-40-px" 
+          >
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case2} /></div>
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case1} /></div>
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case3} /></div>
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case1} /></div>
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case2} /></div>
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case3} /></div>
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case3} /></div>
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case2} /></div>
+            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case1} /></div>
+            <div style={{display: "flex", justifyContent: "center"}}><img src={case3} /></div>
+            <div style={{display: "flex", justifyContent: "center"}}><img src={case2} /></div>
+            <div style={{display: "flex", justifyContent: "center"}}><img src={case1} /></div>
+          </Carousel>
         </section>
         {/* <section className="case-study-section">
           <div className="color-layer"></div>

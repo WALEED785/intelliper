@@ -66,10 +66,28 @@ export default function Header() {
                       <a>Services</a>
                       <ul>
                         <li>
-                          <a><Link to="/services">Service</Link></a>
+                          <a><Link to="/services">Custom Software Development</Link></a>
                         </li>
                         <li>
-                          <a><Link to="/services-detail">Service Detail</Link></a>
+                          <a><Link to="/services-detail">Web App Development</Link></a>
+                        </li>
+                        <li>
+                          <a><Link to="/services-detail">Mobile App Development</Link></a>
+                        </li>
+                        <li>
+                          <a><Link to="/services-detail">UI/UX Design</Link></a>
+                        </li>
+                        <li>
+                          <a><Link to="/services-detail">QA & Testing</Link></a>
+                        </li>
+                        <li>
+                          <a><Link to="/services-detail">Embedded Software Development Services</Link></a>
+                        </li>
+                        <li>
+                          <a><Link to="/services-detail">DevOps</Link></a>
+                        </li>
+                        <li>
+                          <a><Link to="/services-detail">Discovery Workshop</Link></a>
                         </li>
                       </ul>
                     </li>
@@ -77,21 +95,54 @@ export default function Header() {
                       <a href="index.html#">Solutions</a>
                       <ul>
                         <li>
-                          <a href="services.html">Service</a>
+                          <a>Salesforce</a>
                         </li>
                         <li>
-                          <a href="service-detail.html">Service Detail</a>
+                          <a>ServiceNow</a>
+                        </li>
+                        <li>
+                          <a>MuleSoft</a>
+                        </li>
+                        <li>
+                          <a>AWS</a>
+                        </li>
+                        <li>
+                          <a>Cyber Security</a>
+                        </li>
+                        <li>
+                          <a>BPO</a>
+                        </li>
+                        <li>
+                          <a>Cloud Migration</a>
+                        </li>
+                        <li>
+                          <a>Shopify</a>
                         </li>
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="index.html#">Emerging Technologies</a>
+                      <a>Emerging Technologies</a>
                       <ul>
                         <li>
-                          <a href="services.html">Service</a>
+                          <a>Data Science & AI</a>
                         </li>
                         <li>
-                          <a href="service-detail.html">Service Detail</a>
+                          <a>Blockchain</a>
+                        </li>
+                        <li>
+                          <a>Internet of Things</a>
+                        </li>
+                        <li>
+                          <a>AR/VR</a>
+                        </li>
+                        <li>
+                          <a>Robotic Process Automation</a>
+                        </li>
+                        <li>
+                          <a>E-learning</a>
+                        </li>
+                        <li>
+                          <a>Healthcare</a>
                         </li>
                       </ul>
                     </li>
