@@ -7,7 +7,9 @@
 ***/
 
 .main-header{
-	position:absolute;
+	/* position:absolute; */
+	position: fixed;
+    background-color: white;
 	left:0px;
 	right:0px;
 	z-index:99;
@@ -100,7 +102,7 @@
 
 .main-header .outer-box .login-box li a{
 	position:relative;
-	color:#0c0d24;
+	/* color:#111111 !important; */
 	font-size:16px;
 	font-weight:700;
 	display:inline-block;
@@ -121,7 +123,7 @@
 }
 
 .main-header .outer-box .login-box li:nth-child(2) a:hover{
-	background-color:#111111;
+	background-color:#111111 !important;
 }
 
 .main-header.header-style-two .language-nav{
@@ -169,7 +171,7 @@
 
 .main-header .cart-box .cart-box-btn{
 	background:none;
-	color:#0c0d24;
+	color:#111111 !important;
 	cursor: pointer;
 	font-size: 24px;
 	transition: all 300ms ease;
@@ -338,7 +340,7 @@
 }
 
 .main-header .cart-box .cart-panel .btns-boxed li a:hover{
-	color:#f15d52;
+	color:#111111 !important;
 	background:none;
 }
 
@@ -443,12 +445,12 @@
 /* Sticky Header */
 
 .sticky-header .main-menu .navigation > li > a{
-	color:#444444 !important;
+	color:#111111 !important ;
 }
 
 .sticky-header .main-menu .navigation > li:hover > a,
 .sticky-header .main-menu .navigation > li.current > a{
-	color:#f15d52;
+	color:#111111 !important;
 	background-color:inherit !important;
 }
 
@@ -530,7 +532,7 @@
 .main-menu .navigation > li > a{
 	position:relative;
 	display:block;
-	color:#0c0d24;
+	color:#111111 !important;
 	text-align:center;
 	line-height:30px;
 	text-transform: capitalize;
@@ -606,7 +608,7 @@
 	line-height:24px;
 	font-weight:600;
 	font-size:16px;
-	color:#0c0d24;
+	color:#111111 !important ;
 	text-align:left;
 	text-transform:capitalize;
 	transition:all 500ms ease;
@@ -622,7 +624,7 @@
 	left:10px;
 	top:12px;
 	opacity:0;
-	color:#f15d52;
+	color:#111111 !important ;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -639,20 +641,20 @@
 }
 
 .main-menu .navigation > li > ul > li:hover > a{
-	color:#f15d52;
+	color:#111111 !important ;
 	padding-left:30px;
 }
 
 .main-menu .navigation > li > ul > li.dropdown > a:after{
 	font-family: 'FontAwesome';
-	content: "\f105";
+	/* content: "\f105"; */
 	position:absolute;
 	right:15px;
 	top:13px;
 	width:10px;
 	height:20px;
 	display:block;
-	color:#253d4a;
+	color:#111111 !important ;
 	line-height:20px;
 	font-size:16px;
 	font-weight:normal;
@@ -661,7 +663,7 @@
 }
 
 .main-menu .navigation > li > ul > li.dropdown:hover > a:after{
-	color:#222222;
+	color:#111111 !important ;
 }
 
 .main-menu .navigation > li > ul > li > ul{
@@ -704,7 +706,7 @@
 	line-height:24px;
 	font-weight:600;
 	font-size:16px;
-	color:#0c0d24;
+	color:#111111 !important ;
 	text-align:left;
 	text-transform:capitalize;
 	transition:all 500ms ease;
@@ -715,7 +717,7 @@
 }
 
 .main-menu .navigation > li > ul > li > ul > li:hover > a{
-	color:#f15d52;
+	color:#111111 !important ;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a:before{
@@ -724,7 +726,7 @@
 	left:10px;
 	top:12px;
 	opacity:0;
-	color:#f15d52;
+	color:#111111 !important;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -737,7 +739,7 @@
 }
 
 .main-menu .navigation > li > ul > li > ul > li:hover > a{
-	color:#f15d52;
+	color:#111111 !important;
 	padding-left:30px;
 }
 
@@ -819,7 +821,7 @@
 
 .main-header .language-nav li.active a,
 .main-header .language-nav li a:hover{
-	color:#0c0d24;
+	color:#111111 !important;
 }
 
 .header-style-two{
@@ -1007,13 +1009,13 @@
 	line-height: 24px;
 	padding: 10px 20px;
 	font-size: 15px;
-	color: #404040;
+	/* color: #111111 !important; */
 	text-transform: capitalize;
 }
 
 .mobile-menu .navigation li:hover > a,
 .mobile-menu .navigation li.current > a{
-	color:#111111;
+	color:#111111 !important;
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn{
@@ -1025,7 +1027,7 @@
 	text-align:center;
 	font-size:16px;
 	line-height:44px;
-	color:#404040;
+	color:#111111 !important;
 	cursor:pointer;
 	z-index:5;
 }
@@ -1111,7 +1113,7 @@
 
 .main-header.header-style-four .outer-box .phone-box a{
 	position:relative;
-	color:#0c0d24;
+	color:#111111 !important;
 	font-size:20px;
 	font-weight:400;
 	padding-left:40px;

@@ -44,21 +44,19 @@ export default function Header() {
                 >
                   <ul className="navigation clearfix">
                     <li className="current">
-                      <a>
-                        <Link to="/">Home</Link>
-                      </a>
+                        <Link to="/" style={{ textDecoration: "none"}}>Home</Link>
                     </li>
-                    <li className="dropdown">
+                    <li className="current dropdown">
                       <a>Company</a>
                       <ul>
                         <li>
-                          <a><Link to="/about">About Us</Link></a>
+                          <Link to="/about" style={{ textDecoration: "none"}}>About Us</Link>
                         </li>
                         <li>
-                          <a><Link to="/careers">Careers</Link></a>
+                          <Link to="/careers" style={{ textDecoration: "none"}}>Careers</Link>
                         </li>
                         <li>
-                          <a><Link to="/choose-us">Why Choose Us</Link></a>
+                          <Link to="/choose-us" style={{ textDecoration: "none"}}>Why Choose Us</Link>
                         </li>
                       </ul>
                     </li>
@@ -66,57 +64,57 @@ export default function Header() {
                       <a>Services</a>
                       <ul>
                         <li>
-                          <a><Link to="/services">Custom Software Development</Link></a>
+                          <Link to="/services" style={{ textDecoration: "none"}}>Custom Software Development</Link>
                         </li>
                         <li>
-                          <a><Link to="/services-detail">Web App Development</Link></a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Web App Development</Link>
                         </li>
                         <li>
-                          <a><Link to="/services-detail">Mobile App Development</Link></a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Mobile App Development</Link>
                         </li>
                         <li>
-                          <a><Link to="/services-detail">UI/UX Design</Link></a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>UI/UX Design</Link>
                         </li>
                         <li>
-                          <a><Link to="/services-detail">QA & Testing</Link></a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>QA & Testing</Link>
                         </li>
                         <li>
-                          <a><Link to="/services-detail">Embedded Software Development Services</Link></a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Embedded Software Development Services</Link>
                         </li>
                         <li>
-                          <a><Link to="/services-detail">DevOps</Link></a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>DevOps</Link>
                         </li>
                         <li>
-                          <a><Link to="/services-detail">Discovery Workshop</Link></a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Discovery Workshop</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="index.html#">Solutions</a>
+                      <a>Solutions</a>
                       <ul>
                         <li>
-                          <a>Salesforce</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Salesforce</Link>
                         </li>
                         <li>
-                          <a>ServiceNow</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>ServiceNow</Link>
                         </li>
                         <li>
-                          <a>MuleSoft</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>MuleSoft</Link>
                         </li>
                         <li>
-                          <a>AWS</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>AWS</Link>
                         </li>
                         <li>
-                          <a>Cyber Security</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Cyber Security</Link>
                         </li>
                         <li>
-                          <a>BPO</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>BPO</Link>
                         </li>
                         <li>
-                          <a>Cloud Migration</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Cloud Migration</Link>
                         </li>
                         <li>
-                          <a>Shopify</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Shopify</Link>
                         </li>
                       </ul>
                     </li>
@@ -124,42 +122,40 @@ export default function Header() {
                       <a>Emerging Technologies</a>
                       <ul>
                         <li>
-                          <a>Data Science & AI</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Data Science & AI</Link>
                         </li>
                         <li>
-                          <a>Blockchain</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Blockchain</Link>
                         </li>
                         <li>
-                          <a>Internet of Things</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Internet of Things</Link>
                         </li>
                         <li>
-                          <a>AR/VR</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>AR/VR</Link>
                         </li>
                         <li>
-                          <a>Robotic Process Automation</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Robotic Process Automation</Link>
                         </li>
                         <li>
-                          <a>E-learning</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>E-learning</Link>
                         </li>
                         <li>
-                          <a>Healthcare</a>
+                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Healthcare</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a><Link to='/case-studies'>Case Studies</Link></a>
+                      <Link to='/case-studies' style={{ textDecoration: "none"}}>Case Studies</Link>
                     </li>
                     <li>
-                      <a href="#">
-                        <Link to="/contact">Contact</Link>
-                      </a>
+                        <Link to="/contact" style={{ textDecoration: "none"}}>Contact</Link>
                     </li>
                   </ul>
                 </div>
               </nav>
               <div className="outer-box clearfix">
                 <div className="btn-box">
-                  <a href="contact.html" className="btn-style-one theme-btn">
+                  <a href="contact.html" style={{ textDecoration: "none"}} className="btn-style-one theme-btn">
                     <span className="txt">
                       <i className="flaticon-padlock"></i>Book a Call
                     </span>

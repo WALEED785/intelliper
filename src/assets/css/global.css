@@ -108,7 +108,7 @@ body {
 a{
 	text-decoration:none;
 	cursor:pointer;
-	color:#f15d52;
+	/* color:#f15d52; */
 }
 
 button,
