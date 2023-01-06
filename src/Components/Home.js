@@ -34,6 +34,7 @@ import Footer from "./Footer";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -81,12 +82,10 @@ export default function Home() {
                     IT Services for all your Business Needs
                   </div>
                   <div className="btns-box">
-                    <a href="about.html" className="theme-btn btn-style-two">
-                      <span className="txt">Get Started Now</span>
-                    </a>
-                    <a href="about.html" className="theme-btn btn-style-three">
+                    <a href="#" style={{textDecoration: "none"}} className="theme-btn btn-style-one">
                       <span className="txt">Solution</span>
                     </a>
+                    {/* btn-style-one theme-btn */}
                   </div>
                 </div>
               </div>
@@ -776,140 +775,7 @@ export default function Home() {
             <div style={{display: "flex", justifyContent: "center"}}><img src={case1} /></div>
           </Carousel>
         </section>
-        {/* <section className="case-study-section">
-          <div className="color-layer"></div>
-          <div className="auto-container">
-            <div className="row clearfix">
-              <div className="title-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <div className="sec-title">
-                    <div className="title">CASE StTUDIES</div>
-                    <h2>We build successful, lasting, profitable products</h2>
-                    <div className="text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                    </div>
-                  </div>
-                  <a href="index.html#" className="view-more">
-                    View More
-                  </a>
-                </div>
-              </div>
-              <div className="carousel-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <div className="left-gradient"></div>
-                  <div className="right-gradient"></div>
-                  <div className="case-carousel owl-carousel owl-theme">
-                    <div className="case-block">
-                      <div className="inner-box">
-                        <div className="image">
-                          <img src={case1} alt="" />
-                          <div className="overlay-box">
-                            <div className="content">
-                              <div className="category">
-                                Digital IT Strategy
-                              </div>
-                              <h5>
-                                <a href="case-detail.html">Esonit team work</a>
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="case-block">
-                      <div className="inner-box">
-                        <div className="image">
-                          <img src={case2} alt="" />
-                          <div className="overlay-box">
-                            <div className="content">
-                              <div className="category">
-                                Digital IT Strategy
-                              </div>
-                              <h5>
-                                <a href="case-detail.html">Esonit team work</a>
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="case-block">
-                      <div className="inner-box">
-                        <div className="image">
-                          <img src={case3} alt="" />
-                          <div className="overlay-box">
-                            <div className="content">
-                              <div className="category">
-                                Digital IT Strategy
-                              </div>
-                              <h5>
-                                <a href="case-detail.html">Esonit team work</a>
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div className="case-block">
-                      <div className="inner-box">
-                        <div className="image">
-                          <img src={case1} alt="" />
-                          <div className="overlay-box">
-                            <div className="content">
-                              <div className="category">
-                                Digital IT Strategy
-                              </div>
-                              <h5>
-                                <a href="case-detail.html">Esonit team work</a>
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="case-block">
-                      <div className="inner-box">
-                        <div className="image">
-                          <img src={case2} alt="" />
-                          <div className="overlay-box">
-                            <div className="content">
-                              <div className="category">
-                                Digital IT Strategy
-                              </div>
-                              <h5>
-                                <a href="case-detail.html">Esonit team work</a>
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="case-block">
-                      <div className="inner-box">
-                        <div className="image">
-                          <img src={case3} alt="" />
-                          <div className="overlay-box">
-                            <div className="content">
-                              <div className="category">
-                                Digital IT Strategy
-                              </div>
-                              <h5>
-                                <a href="case-detail.html">Esonit team work</a>
-                              </h5>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
         <section class="discuss-section">
         <div class="auto-container">
           <div class="inner-container">

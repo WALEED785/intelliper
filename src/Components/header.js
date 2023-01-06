@@ -64,7 +64,7 @@ export default function Header() {
                       <a>Services</a>
                       <ul>
                         <li>
-                          <Link to="/services" style={{ textDecoration: "none"}}>Custom Software Development</Link>
+                          <Link to="/custome-software" style={{ textDecoration: "none"}}>Custom Software Development</Link>
                         </li>
                         <li>
                           <Link to="/services-detail" style={{ textDecoration: "none"}}>Web App Development</Link>

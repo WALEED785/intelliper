@@ -339,7 +339,7 @@ img{
 
 .btn-style-two:before{
 	position: absolute;
-	content: '';
+	/* content: ''; */
     top: 0;
     left: 0;
     width: 100%;
@@ -367,7 +367,7 @@ img{
 }
 
 .btn-style-two:hover{
-	color: #ffffff;
+	color: #0c0d24;
 	border-color:#f15d52;
 }
 

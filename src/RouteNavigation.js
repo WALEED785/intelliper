@@ -5,6 +5,7 @@ import Careers from './Components/Careers';
 import CaseStudy from './Components/CaseStudy';
 import ChooseUS from './Components/ChooseUS';
 import ContactUS from './Components/ContactUS';
+import CustomeSoftware from './Components/CustomeSoftware';
 import Home from './Components/Home';
 import ServiceDetails from './Components/ServiceDetails';
 import Services from './Components/Services';
@@ -16,7 +17,9 @@ function RouteNavigation() {
       <Route path="/about" element={<AboutUs />} />
       <Route path="/careers" element={<Careers />} />
       <Route path="/choose-us" element={<ChooseUS />} />
+      {/* Services Routes */}
       <Route path="/services" element={<Services />} />
+      <Route path="/custome-software" element={<CustomeSoftware />} />
       <Route path="/services-detail" element={<ServiceDetails />} />
       <Route path="/case-studies" element={<CaseStudy />} />
       <Route path="/contact" element={<ContactUS/>} />
