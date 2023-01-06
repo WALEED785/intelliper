@@ -67,25 +67,25 @@ export default function Header() {
                           <Link to="/custome-software" style={{ textDecoration: "none"}}>Custom Software Development</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Web App Development</Link>
+                          <Link to="/web-development-software" style={{ textDecoration: "none"}}>Web App Development</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Mobile App Development</Link>
+                          <Link to="/mobile-app-development-software" style={{ textDecoration: "none"}}>Mobile App Development</Link>
                         </li>
                         <li>
                           <Link to="/services-detail" style={{ textDecoration: "none"}}>UI/UX Design</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>QA & Testing</Link>
+                          <Link to="/quality-assurance-and-testing-services" style={{ textDecoration: "none"}}>QA & Testing</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Embedded Software Development Services</Link>
+                          <Link to="/embedded-software-development" style={{ textDecoration: "none"}}>Embedded Software Development Services</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>DevOps</Link>
+                          <Link to="/devops-services" style={{ textDecoration: "none"}}>DevOps</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Discovery Workshop</Link>
+                          <Link to="/discovery-workshop-services" style={{ textDecoration: "none"}}>Discovery Workshop</Link>
                         </li>
                       </ul>
                     </li>
