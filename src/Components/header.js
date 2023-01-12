@@ -43,23 +43,9 @@ export default function Header() {
                   id="navbarSupportedContent"
                 >
                   <ul className="navigation clearfix">
-                    <li className="current">
+                    {/* <li className="current">
                         <Link to="/" style={{ textDecoration: "none"}}>Home</Link>
-                    </li>
-                    <li className="current dropdown">
-                      <a>Company</a>
-                      <ul>
-                        <li>
-                          <Link to="/about" style={{ textDecoration: "none"}}>About Us</Link>
-                        </li>
-                        <li>
-                          <Link to="/careers" style={{ textDecoration: "none"}}>Careers</Link>
-                        </li>
-                        <li>
-                          <Link to="/choose-us" style={{ textDecoration: "none"}}>Why Choose Us</Link>
-                        </li>
-                      </ul>
-                    </li>
+                    </li> */}
                     <li className="dropdown">
                       <a>Services</a>
                       <ul>
@@ -147,6 +133,20 @@ export default function Header() {
                     <li>
                       <Link to='/case-studies' style={{ textDecoration: "none"}}>Case Studies</Link>
                     </li>
+                    <li className="current dropdown">
+                      <a>Company</a>
+                      <ul>
+                        <li>
+                          <Link to="/about" style={{ textDecoration: "none"}}>About Us</Link>
+                        </li>
+                        <li>
+                          <Link to="/careers" style={{ textDecoration: "none"}}>Careers</Link>
+                        </li>
+                        <li>
+                          <Link to="/choose-us" style={{ textDecoration: "none"}}>Why Choose Us</Link>
+                        </li>
+                      </ul>
+                    </li>
                     <li>
                         <Link to="/contact" style={{ textDecoration: "none"}}>Contact</Link>
                     </li>
@@ -157,7 +157,7 @@ export default function Header() {
                 <div className="btn-box">
                 <Link to='/contact' style={{ textDecoration: "none"}} className="btn-style-one theme-btn">
                     <span className="txt">
-                      <i className="flaticon-padlock"></i>Book a Call
+                      <i className="flaticon-call"></i>Book a Call
                     </span>
                   </Link>
                 </div>

@@ -83,7 +83,7 @@ export default function Home() {
                   </div>
                   <div className="btns-box">
                     <a href="#" style={{textDecoration: "none"}} className="theme-btn btn-style-one">
-                      <span className="txt">Solution</span>
+                      <span className="txt">Let's Talk</span>
                     </a>
                     {/* btn-style-one theme-btn */}
                   </div>
@@ -100,146 +100,141 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <section className="process-section style-two">
-          <div className="circle-layer"></div>
-          <div className="auto-container">
-            <div className="sec-title centered">
-              <div className="title">Services</div>
-              <h2>IT Solutions and Technology Startup</h2>
-              <button className="btn btn-info">
-                View All <i className="flaticon-next-2 submit-btn"></i>
-              </button>
-            </div>
-            <div className="row clearfix">
-              <div className="process-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <img src={process1} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Desktop Computing</a>
-                  </h3>
-                  <div className="text">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
-
-              <div className="process-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <img src={process2} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Web Development</a>
-                  </h3>
-                  <div className="text">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
-              <div className="process-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <img src={process3} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">IT Management</a>
-                  </h3>
-                  <div className="text">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
-
-              <div className="process-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <img src={process4} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Data Security</a>
-                  </h3>
-                  <div className="text">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
-            </div>
+        <section className="rtt-section">
+          <div className="container text-btn">
+            <h2 className="home-heading-two">
+              Let's co-create the right IT solution for your business.
+            </h2>
+            <a className="custo-btn" id="stylebtn">
+              Let's Talk
+            </a>
           </div>
         </section>
-
-        <section className="services-section">
+        <section className="business-section">
+          <div className="circle-layer"></div>
+          <div className="circle-layer-two"></div>
           <div className="auto-container">
+            <div className="sec-title centered">
+              <h2>
+                Here are some of solutions suiting <br /> your business needs.
+              </h2>
+              <div className="text">
+                Choose your coach training based on the program offerings, your
+                instinct, <br /> We are different from a traditional IT staffing
+                agency
+              </div>
+            </div>
             <div className="row clearfix">
-              <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  className="inner-box wow fadeInLeft"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">IT Strategy and Consultancy</a>
-                  </h3>
+              <div className="business-block col-lg-4 col-md-6 col-sm-12">
+                <div className="inner-box">
                   <div className="icon">
-                    <img src={services1} alt="" />
+                    <div className="color-circle"></div>
+                    <img src={business1} alt="" />
                   </div>
+                  <h3>
+                    <Link to='/custome-software' style={{textDecoration: "none"}}>Custom Software Development</Link>
+                  </h3>
                   <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing.
+                    We are Australia highest rated Search Marketing, Creative IT agency on australia in 2021.
                   </div>
-                  <a href="case-detail.html" className="read-more">
-                    Read More <span className="fa fa-angle-right"></span>
-                  </a>
+                  <Link to='/custome-software' className="explore">
+                    Explore More
+                  </Link>
                 </div>
               </div>
 
-              <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  className="inner-box wow fadeInUp"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">
-                      World className <br /> Support
-                    </a>
-                  </h3>
+              <div className="business-block col-lg-4 col-md-6 col-sm-12">
+                <div className="inner-box">
                   <div className="icon">
-                    <img src={services2} alt="" />
+                    <div className="color-circle"></div>
+                    <img src={business2} alt="" />
                   </div>
-                  <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing.
+                  <h3>
+                    <Link to='/web-development-software' style={{textDecoration: "none"}}>Web App Development</Link>
+                  </h3>
+                  <div className="text"> 
+                  <br/>
+                  We believe in building interactive web applications, To create experiences beyond our clients’ expectations.
                   </div>
-                  <a href="case-detail.html" className="read-more">
-                    Read More <span className="fa fa-angle-right"></span>
-                  </a>
+                  <Link to='/web-development-software' className="explore">
+                    Explore More
+                  </Link>
                 </div>
               </div>
-              <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  className="inner-box wow fadeInRight"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">
-                      IT Management Data <br /> Services
-                    </a>
-                  </h3>
+
+              <div className="business-block col-lg-4 col-md-6 col-sm-12">
+                <div className="inner-box">
                   <div className="icon">
-                    <img src={services3} alt="" />
+                    <div className="color-circle"></div>
+                    <img src={business3} alt="" />
                   </div>
+                  <h3>
+                    <Link to='/mobile-app-development-software' style={{textDecoration: "none"}}>Mobile App Development</Link>
+                  </h3>
                   <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing.
+                      Leveraging latest technological tools, We build high performance apps to scale your business.
                   </div>
-                  <a href="case-detail.html" className="read-more">
-                    Read More <span className="fa fa-angle-right"></span>
-                  </a>
+                  <Link to='/mobile-app-development-software' className="explore">
+                    Explore More
+                  </Link>
+                </div>
+              </div>
+
+              <div className="business-block col-lg-4 col-md-6 col-sm-12">
+                <div className="inner-box">
+                  <div className="icon">
+                    <div className="color-circle"></div>
+                    <img src={business4} alt="" />
+                  </div>
+                  <h3>
+                    <Link to='' style={{textDecoration: "none"}}>UI/UX Design</Link>
+                  </h3>
+                  <div className="text">
+                    <br/>
+                    Create complex enterprise software, ensure reliable software
+                    integration, modernise your legacy system.
+                  </div>
+                  <Link to='' className="explore">
+                    Explore More
+                  </Link>
+                </div>
+              </div>
+
+              <div className="business-block col-lg-4 col-md-6 col-sm-12">
+                <div className="inner-box">
+                  <div className="icon">
+                    <div className="color-circle"></div>
+                    <img src={business5} alt="" />
+                  </div>
+                  <h3>
+                    <Link to='/embedded-software-development' style={{textDecoration: "none"}}>Embedded Software Development Services</Link>
+                  </h3>
+                  <div className="text">
+                  Hire Experienced & Dedicated Embedded Software Developers Now
+                  </div>
+                  <br/>
+                  <Link to='/embedded-software-development' className="explore">
+                    Explore More
+                  </Link>
+                </div>
+              </div>
+
+              <div className="business-block col-lg-4 col-md-6 col-sm-12">
+                <div className="inner-box">
+                  <div className="icon">
+                    <div className="color-circle"></div>
+                    <img src={business6} alt="" />
+                  </div>
+                  <h3>
+                    <Link to='/devops-services' style={{textDecoration: "none"}}>DevOps</Link>
+                  </h3>
+                  <div className="text">
+                    <br/>
+                  DevOps solutions automate away inefficiencies and improve the quality and security of software.
+                  </div>
+                  <Link to='/devops-services' className="explore">
+                    Explore More
+                  </Link>
                 </div>
               </div>
             </div>
@@ -420,210 +415,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="business-section">
-          <div className="circle-layer"></div>
-          <div className="circle-layer-two"></div>
-          <div className="auto-container">
-            <div className="sec-title centered">
-              <h2>
-                Here are some of solutions suiting <br /> your business needs.
-              </h2>
-              <div className="text">
-                Choose your coach training based on the program offerings, your
-                instinct, <br /> We are different from a traditional IT staffing
-                agency
-              </div>
-            </div>
-            <div className="row clearfix">
-              <div className="business-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <div className="color-circle"></div>
-                    <img src={business1} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Software Development</a>
-                  </h3>
-                  <div className="text">
-                    Create complex enterprise software, ensure reliable software
-                    integration, modernise your legacy system.
-                  </div>
-                  <a className="explore" href="case-detail.html">
-                    Explore More
-                  </a>
-                </div>
-              </div>
 
-              <div className="business-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <div className="color-circle"></div>
-                    <img src={business2} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Software Development</a>
-                  </h3>
-                  <div className="text">
-                    Create complex enterprise software, ensure reliable software
-                    integration, modernise your legacy system.
-                  </div>
-                  <a className="explore" href="case-detail.html">
-                    Explore More
-                  </a>
-                </div>
-              </div>
-
-              <div className="business-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <div className="color-circle"></div>
-                    <img src={business3} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Product Design</a>
-                  </h3>
-                  <div className="text">
-                    Create complex enterprise software, ensure reliable software
-                    integration, modernise your legacy system.
-                  </div>
-                  <a className="explore" href="case-detail.html">
-                    Explore More
-                  </a>
-                </div>
-              </div>
-
-              <div className="business-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <div className="color-circle"></div>
-                    <img src={business4} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Analytic Solutions</a>
-                  </h3>
-                  <div className="text">
-                    Create complex enterprise software, ensure reliable software
-                    integration, modernise your legacy system.
-                  </div>
-                  <a className="explore" href="case-detail.html">
-                    Explore More
-                  </a>
-                </div>
-              </div>
-
-              <div className="business-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <div className="color-circle"></div>
-                    <img src={business5} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Internet Marketing</a>
-                  </h3>
-                  <div className="text">
-                    Create complex enterprise software, ensure reliable software
-                    integration, modernise your legacy system.
-                  </div>
-                  <a className="explore" href="case-detail.html">
-                    Explore More
-                  </a>
-                </div>
-              </div>
-
-              <div className="business-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <div className="color-circle"></div>
-                    <img src={business6} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">IT Strategy Consultancy</a>
-                  </h3>
-                  <div className="text">
-                    Create complex enterprise software, ensure reliable software
-                    integration, modernise your legacy system.
-                  </div>
-                  <a className="explore" href="case-detail.html">
-                    Explore More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="chain-section">
-          <div className="auto-container">
-            <div className="row clearfix">
-              <div className="blocks-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <div className="color-layer"></div>
-                  <div className="blocks-outer">
-                    <div className="chain-block">
-                      <div className="inner-box">
-                        <div className="content">
-                          <div className="icon flaticon-check-4"></div>
-                          <div className="title">Cloud</div>
-                          <h4>
-                            Cloud solutions & <br /> management
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="chain-block">
-                      <div className="inner-box">
-                        <div className="content">
-                          <div className="icon flaticon-check-4"></div>
-                          <div className="title">Software</div>
-                          <h4>
-                            Software solutions & <br /> services
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="chain-block">
-                      <div className="inner-box">
-                        <div className="content">
-                          <div className="icon flaticon-check-4"></div>
-                          <div className="title">Product</div>
-                          <h4>
-                            Product lifecycle <br /> services
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <h2>
-                    Supply <br /> Chain Optimization
-                  </h2>
-                  <div className="text">
-                    <p>
-                      Our powerful procurement tools and dedicated consultants
-                      simplify how your business buys and manages hardware and
-                      software. We provide end-to-end support for your entire IT
-                      lifecycle.
-                    </p>
-                    <p>
-                      We provide end-to-end support for your entire IT
-                      lifecycle.
-                    </p>
-                  </div>
-                  <a
-                    href="leadership.html"
-                    className="theme-btn btn-style-three"
-                  >
-                    <span className="txt">Read More</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="testimonial-section">
           <div className="color-layer"></div>
           <div className="auto-container">

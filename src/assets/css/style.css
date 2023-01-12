@@ -25,8 +25,8 @@
 .banner-section{
 	position:relative;
 	overflow:hidden;
-	padding-top:280px;
-	padding-bottom:100px;
+	padding-top:100px;
+	/* padding-bottom:100px; */
 	background-color:#ffffff;
 }
 
@@ -132,7 +132,7 @@
 
 .banner-section .content-column .inner-column{
 	position:relative;
-	padding-top:30px;
+	padding-top:100px;
 }
 
 .banner-section .content-column .text{
@@ -877,7 +877,7 @@
 .business-section{
 	position:relative;
 	overflow:hidden;
-	padding:150px 0px 80px;
+	padding:100px 0px 80px;
 }
 
 .business-section .sec-title{
@@ -989,8 +989,9 @@
 }
 
 .business-block .inner-box .explore{
+	text-decoration: none;
 	position:relative;
-	color:#f15d4f;
+	color:#0c0d24;
 	font-size:16px;
 	font-weight:700;
 	transition:all 500ms ease;
@@ -1001,7 +1002,7 @@
 }
 
 .business-block .inner-box:hover h3 a{
-	color:#f15d52;
+	color:#0c0d24;
 }
 
 .business-block .inner-box:hover .explore{
