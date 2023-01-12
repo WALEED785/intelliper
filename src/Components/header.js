@@ -11,9 +11,9 @@ export default function Header() {
           <div className="auto-container clearfix">
             <div className="pull-left logo-box">
               <div className="logo">
-                <a href="#">
+                <Link to='/'>
                   <img src={logo} alt="Site Logo" title="" />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -93,28 +93,28 @@ export default function Header() {
                       <a>Solutions</a>
                       <ul>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Salesforce</Link>
+                          <Link to="/sales-force-consulting" style={{ textDecoration: "none"}}>Salesforce</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>ServiceNow</Link>
+                          <Link to="/servicenow-consulting-services" style={{ textDecoration: "none"}}>ServiceNow</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>MuleSoft</Link>
+                          <Link to="/mulesoft-consulting-services" style={{ textDecoration: "none"}}>MuleSoft</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>AWS</Link>
+                          <Link to="/aws-consulting-services" style={{ textDecoration: "none"}}>AWS</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Cyber Security</Link>
+                          <Link to="/cyber-security-services" style={{ textDecoration: "none"}}>Cyber Security</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>BPO</Link>
+                          <Link to="/business-process-outsourcing-services" style={{ textDecoration: "none"}}>BPO</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Cloud Migration</Link>
+                          <Link to="/cloud-migration-services" style={{ textDecoration: "none"}}>Cloud Migration</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Shopify</Link>
+                          <Link to="/shopify-development-services" style={{ textDecoration: "none"}}>Shopify</Link>
                         </li>
                       </ul>
                     </li>
@@ -122,25 +122,25 @@ export default function Header() {
                       <a>Emerging Technologies</a>
                       <ul>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Data Science & AI</Link>
+                          <Link to="/data-science-consulting-services" style={{ textDecoration: "none"}}>Data Science & AI</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Blockchain</Link>
+                          <Link to="/blockchain-consulting-services" style={{ textDecoration: "none"}}>Blockchain</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Internet of Things</Link>
+                          <Link to="/internet-of-things-iot-services" style={{ textDecoration: "none"}}>Internet of Things</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>AR/VR</Link>
+                          <Link to="/augmented-reality-virtual-reality-services" style={{ textDecoration: "none"}}>AR/VR</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Robotic Process Automation</Link>
+                          <Link to="/robotic-process-automation-services" style={{ textDecoration: "none"}}>Robotic Process Automation</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>E-learning</Link>
+                          <Link to="/e-learning-software-development-services" style={{ textDecoration: "none"}}>E-learning</Link>
                         </li>
                         <li>
-                          <Link to="/services-detail" style={{ textDecoration: "none"}}>Healthcare</Link>
+                          <Link to="/healthcare-software-development-services" style={{ textDecoration: "none"}}>Healthcare</Link>
                         </li>
                       </ul>
                     </li>
@@ -155,11 +155,11 @@ export default function Header() {
               </nav>
               <div className="outer-box clearfix">
                 <div className="btn-box">
-                  <a href="contact.html" style={{ textDecoration: "none"}} className="btn-style-one theme-btn">
+                <Link to='/contact' style={{ textDecoration: "none"}} className="btn-style-one theme-btn">
                     <span className="txt">
                       <i className="flaticon-padlock"></i>Book a Call
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

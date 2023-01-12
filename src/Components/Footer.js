@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import logo from "../assets/images/logo.png";
 
 export default function Footer() {
@@ -11,14 +12,14 @@ export default function Footer() {
             <div className="footer-widget list-widget">
               <h3 style={{ fontSize: "14px"}}>SERVICES</h3>
               <ul className="list">
-                <li><a>Dedicated Teams</a></li>
-                <li><a>Custom Software Development</a></li>
-                <li><a>Web App Development</a></li>
-                <li><a>Mobile App Development</a></li>
-                <li><a>UI/UX Design</a></li>
-                <li><a>QA & Testing</a></li>
-                <li><a>DevOps</a></li>
-                <li><a>Discovery Workshop</a></li>
+                <li><Link to='/services' style={{textDecoration: "none"}}>Dedicated Teams</Link></li>
+                <li><Link to='/custome-software' style={{textDecoration: "none"}}>Custom Software Development</Link></li>
+                <li><Link to='/web-development-software' style={{textDecoration: "none"}}>Web App Development</Link></li>
+                <li><Link to='/mobile-app-development-software' style={{textDecoration: "none"}}>Mobile App Development</Link></li>
+                <li><Link to='/services' style={{textDecoration: "none"}}>UI/UX Design</Link></li>
+                <li><Link to='/quality-assurance-and-testing-services' style={{textDecoration: "none"}}>QA & Testing</Link></li>
+                <li><Link to='/devops-services' style={{textDecoration: "none"}}>DevOps</Link></li>
+                <li><Link to='/discovery-workshop-services' style={{textDecoration: "none"}}>Discovery Workshop</Link></li>
               </ul>
             </div>
           </div>

@@ -273,11 +273,17 @@ img{
 	background:none;
 	border-radius:4px;
 	padding: 13px 38px 13px;
-	background-color:#f15d52;
+	/* background-color:#f15d52; */
+	background-image: -ms-linear-gradient(right, #444344 0%, #000101 100%);
+	background-image: -moz-linear-gradient(right, #444344 0%, #000101 100%);
+	background-image: -o-linear-gradient(right, #444344 0%, #000101 100%);
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #444344), color-stop(100, #000101));
+	background-image: -webkit-linear-gradient(right, #444344 0%, #000101 100%);
+	background-image: linear-gradient(to left, #444344 0%, #000101 100%);
 	text-transform: capitalize;
 }
 
-.btn-style-one:before{
+/* .btn-style-one:before{
 	position: absolute;
 	content: '';
     top: 0;
@@ -298,7 +304,7 @@ img{
 	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #444344), color-stop(100, #000101));
 	background-image: -webkit-linear-gradient(right, #444344 0%, #000101 100%);
 	background-image: linear-gradient(to left, #444344 0%, #000101 100%);
-}
+} */
 
 .btn-style-one .txt{
 	position:relative;
