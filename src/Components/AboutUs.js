@@ -22,7 +22,7 @@ export default function AboutUs() {
           <div className="auto-container">
             <div className="content-boxed">
               <div className="inner-box">
-                <div className="title">About us</div>
+                {/* <div className="title">About us</div> */}
                 <h2>
                   We're a team of creatives who <br /> are excited about new
                   ideas
@@ -35,77 +35,7 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="chain-section style-three">
-          <div className="auto-container">
-            <div className="row clearfix">
-              <div className="blocks-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <div className="color-layer"></div>
-                  <div className="blocks-outer">
-                    <div className="chain-block">
-                      <div className="inner-box">
-                        <div className="content">
-                          <div className="icon flaticon-check-4"></div>
-                          <div className="title">Cloud</div>
-                          <h4>
-                            Cloud solutions & <br /> management
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div className="chain-block">
-                      <div className="inner-box">
-                        <div className="content">
-                          <div className="icon flaticon-check-4"></div>
-                          <div className="title">Software</div>
-                          <h4>
-                            Software solutions & <br /> services
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="chain-block">
-                      <div className="inner-box">
-                        <div className="content">
-                          <div className="icon flaticon-check-4"></div>
-                          <div className="title">Product</div>
-                          <h4>
-                            Product lifecycle <br /> services
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <h2>
-                    Supply <br /> Chain Optimization
-                  </h2>
-                  <div className="text">
-                    <p>
-                      Our powerful procurement tools and dedicated consultants
-                      simplify how your business buys and manages hardware and
-                      software. We provide end-to-end support for your entire IT
-                      lifecycle.
-                    </p>
-                    <p>
-                      We provide end-to-end support for your entire IT
-                      lifecycle.
-                    </p>
-                  </div>
-                  <a href="leadership.html" className="theme-btn btn-style-three">
-                    <span className="txt">Read More</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="success-section">
           <div className="auto-container">
             <div className="row clearfix">
@@ -416,142 +346,6 @@ export default function AboutUs() {
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="counter-section">
-          <div className="auto-container">
-            <div className="fact-counter">
-              <div className="row clearfix">
-                <div className="column counter-column col-lg-4 col-md-4 col-sm-12">
-                  <div
-                    className="inner wow fadeInLeft"
-                    data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div className="content">
-                      <div className="count-outer count-box">
-                        <span
-                          className="count-text"
-                          data-speed="3500"
-                          data-stop="236"
-                        >
-                          0
-                        </span>
-                        +
-                      </div>
-                      <div className="counter-title">Succeeded projects</div>
-                      <div className="text">
-                        Sint occaecat cupidatat non proident sunt in culpa qui
-                        officia
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="column counter-column col-lg-4 col-md-4 col-sm-12">
-                  <div
-                    className="inner wow fadeInLeft"
-                    data-wow-delay="300ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div className="content">
-                      <div className="count-outer count-box">
-                        <span
-                          className="count-text"
-                          data-speed="2500"
-                          data-stop="3036"
-                        >
-                          0
-                        </span>
-                        +
-                      </div>
-                      <div className="counter-title">Working hours</div>
-                      <div className="text">
-                        Sint occaecat cupidatat non proident sunt in culpa qui
-                        officia
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="column counter-column col-lg-4 col-md-4 col-sm-12">
-                  <div
-                    className="inner wow fadeInLeft"
-                    data-wow-delay="600ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div className="content">
-                      <div className="count-outer count-box">
-                        <span
-                          className="count-text"
-                          data-speed="3000"
-                          data-stop="46"
-                        >
-                          0
-                        </span>
-                        +
-                      </div>
-                      <div className="counter-title">Happy Client</div>
-                      <div className="text">
-                        Sint occaecat cupidatat non proident sunt in culpa qui
-                        officia
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="newsletter-section">
-          <div className="auto-container">
-            <div className="inner-container">
-              <div className="row clearfix">
-                <div className="form-column col-lg-7 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="title-box">
-                      <h2>Signup to our newsletter</h2>
-                      <div className="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed <br /> do eiusmod tempor incididunt{" "}
-                      </div>
-                    </div>
-                    <div className="newsletter-form">
-                      <form method="post" action="contact.html">
-                        <div className="form-group">
-                          <span className="icon fa fa-envelope-o"></span>
-                          <input
-                            type="email"
-                            name="email"
-                            value=""
-                            placeholder="Enter your eamil address"
-                            required
-                          />
-                          <button
-                            type="submit"
-                            className="flaticon-next-2 submit-btn"
-                          ></button>
-                        </div>
-                      </form>
-                    </div>
-                    <div className="member">
-                      Already member <a href="about.html#">Sign in</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="image-column col-lg-5 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <img
-                        src="https://themazine.com/html/Esonit/Esonit/images/resource/newsletter.png"
-                        alt=""
-                      />
                     </div>
                   </div>
                 </div>

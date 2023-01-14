@@ -142,9 +142,9 @@ export default function Header() {
                         <li>
                           <Link to="/careers" style={{ textDecoration: "none"}}>Careers</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to="/choose-us" style={{ textDecoration: "none"}}>Why Choose Us</Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </li>
                     <li>

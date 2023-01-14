@@ -14,7 +14,7 @@ export default function ContactUS() {
         <div class="auto-container">
           <div class="content-boxed">
             <div class="inner-box">
-              <div class="title">Contact</div>
+              {/* <div class="title">Contact</div> */}
               <h2>Leave us a little info</h2>
               <div class="text">
                 Leave us a little info, and we’ll be in touch. exercitation

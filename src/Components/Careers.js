@@ -15,7 +15,7 @@ function Careers() {
           <div className="auto-container">
             <div className="upper-box">
               <div className="inner-box">
-                <div className="title">Careers</div>
+                {/* <div className="title">Careers</div> */}
                 <h1>
                   Do you want to work with us? <br /> Then send your cv
                 </h1>
@@ -131,123 +131,6 @@ function Careers() {
                     <a href="case-detail.html" className="theme-btn apply-btn">
                       Apply Now
                     </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="services-section style-two">
-          <div className="auto-container">
-            <div className="row clearfix">
-              <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  className="inner-box wow fadeInLeft"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">IT Strategy and Consultancy</a>
-                  </h3>
-                  <div className="icon">
-                    <img src={service1} alt="" />
-                  </div>
-                  <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt{" "}
-                  </div>
-                </div>
-              </div>
-
-              <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  className="inner-box wow fadeInUp"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">
-                      World className <br /> Support
-                    </a>
-                  </h3>
-                  <div className="icon">
-                    <img src={service2} alt="" />
-                  </div>
-                  <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt{" "}
-                  </div>
-                </div>
-              </div>
-
-              <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  className="inner-box wow fadeInRight"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">
-                      IT Management Data <br /> Services
-                    </a>
-                  </h3>
-                  <div className="icon">
-                    <img src={service3} alt="" />
-                  </div>
-                  <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="newsletter-section">
-          <div className="auto-container">
-            <div className="inner-container">
-              <div className="row clearfix">
-                <div className="form-column col-lg-7 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="title-box">
-                      <h2>Signup to our newsletter</h2>
-                      <div className="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed <br /> do eiusmod tempor incididunt{" "}
-                      </div>
-                    </div>
-                    <div className="newsletter-form">
-                      <form method="post" action="contact.html">
-                        <div className="form-group">
-                          <span className="icon fa fa-envelope-o"></span>
-                          <input
-                            type="email"
-                            name="email"
-                            value=""
-                            placeholder="Enter your eamil address"
-                            required
-                          />
-                          <button
-                            type="submit"
-                            className="flaticon-next-2 submit-btn"
-                          ></button>
-                        </div>
-                      </form>
-                    </div>
-                    <div className="member">
-                      Already member <a href="careers.html#">Sign in</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="image-column col-lg-5 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <img
-                        src="https://themazine.com/html/Esonit/Esonit/images/resource/newsletter.png"
-                        alt=""
-                      />
-                    </div>
                   </div>
                 </div>
               </div>

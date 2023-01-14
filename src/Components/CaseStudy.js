@@ -21,7 +21,7 @@ export default function CaseStudy() {
           <div class="auto-container">
             <div class="content-boxed">
               <div class="inner-box">
-                <div class="title">Case Studies</div>
+                {/* <div class="title">Case Studies</div> */}
                 <h2>
                   Here are our popular <br /> Case studies
                 </h2>
@@ -54,21 +54,21 @@ export default function CaseStudy() {
                     <div class="content">
                       <div class="title">Cloud CRM</div>
                       <h3>
-                        <a href="case-detail.html">
+                        <a href="#" style={{textDecoration: "none"}}>
                           Salesforce-Based <br /> Cloud CRM Solution
                         </a>
                       </h3>
                       <div class="categories">
                         Web design, UI design, animation
                       </div>
-                      <a href="case-detail.html" class="view-case">
+                      <a style={{textDecoration: "none"}} href="#" class="view-case">
                         View Case
                       </a>
                     </div>
                   </div>
                   <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="image">
-                      <a href="case-detail.html">
+                      <a href="#">
                         <img src={case14} alt="" />
                       </a>
                     </div>
@@ -79,26 +79,26 @@ export default function CaseStudy() {
             <div class="case-block-three">
               <div class="inner-box">
                 <div class="row clearfix">
+                  <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="image">
+                      <a href="#" >
+                        <img src={case15} alt="" />
+                      </a>
+                    </div>
+                  </div>
                   <div class="content-column col-lg-6 col-md-12 col-sm-12">
                     <div class="content">
                       <div class="title">Paperwork </div>
                       <h3>
-                        <a href="case-detail.html">
+                        <a href="#" style={{textDecoration: "none"}}>
                           Reducing paperwork for <br /> construction companies
                         </a>
                       </h3>
                       <div class="categories">
                         Web design, UI design, animation
                       </div>
-                      <a href="case-detail.html" class="view-case">
+                      <a href="#" class="view-case" style={{textDecoration: "none"}}>
                         View Case
-                      </a>
-                    </div>
-                  </div>
-                  <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="image">
-                      <a href="case-detail.html">
-                        <img src={case15} alt="" />
                       </a>
                     </div>
                   </div>
@@ -112,7 +112,7 @@ export default function CaseStudy() {
                     <div class="content">
                       <div class="title">Sass</div>
                       <h3>
-                        <a href="case-detail.html">
+                        <a href="#" style={{textDecoration: "none"}}>
                           Developing a SaaS platform <br /> that assists UK
                           homebuyers
                         </a>
@@ -120,14 +120,14 @@ export default function CaseStudy() {
                       <div class="categories">
                         Web design, UI design, animation
                       </div>
-                      <a href="case-detail.html" class="view-case">
+                      <a href="#" class="view-case" style={{textDecoration: "none"}}>
                         View Case
                       </a>
                     </div>
                   </div>
                   <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="image">
-                      <a href="case-detail.html">
+                      <a href="#">
                         <img src={case16} alt="" />
                       </a>
                     </div>
@@ -139,11 +139,18 @@ export default function CaseStudy() {
             <div class="case-block-three">
               <div class="inner-box">
                 <div class="row clearfix">
+                  <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="image">
+                      <a href="#">
+                        <img src={case17} alt="" />
+                      </a>
+                    </div>
+                  </div>
                   <div class="content-column col-lg-6 col-md-12 col-sm-12">
                     <div class="content">
                       <div class="title">Sass</div>
                       <h3>
-                        <a href="case-detail.html">
+                        <a href="#" style={{textDecoration: "none"}}>
                           Developing a SaaS platform <br /> that assists UK
                           homebuyers
                         </a>
@@ -151,15 +158,8 @@ export default function CaseStudy() {
                       <div class="categories">
                         Web design, UI design, animation
                       </div>
-                      <a href="case-detail.html" class="view-case">
+                      <a href="#" class="view-case" style={{textDecoration: "none"}}>
                         View Case
-                      </a>
-                    </div>
-                  </div>
-                  <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="image">
-                      <a href="case-detail.html">
-                        <img src={case17} alt="" />
                       </a>
                     </div>
                   </div>
@@ -173,21 +173,21 @@ export default function CaseStudy() {
                     <div class="content">
                       <div class="title">TableZ</div>
                       <h3>
-                        <a href="case-detail.html">
+                        <a href="#" style={{textDecoration: "none"}}>
                           Improving a restaurant booking system
                         </a>
                       </h3>
                       <div class="categories">
                         Web design, UI design, animation
                       </div>
-                      <a href="case-detail.html" class="view-case">
+                      <a href="#" class="view-case" style={{textDecoration: "none"}}>
                         View Case
                       </a>
                     </div>
                   </div>
                   <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="image">
-                      <a href="case-detail.html">
+                      <a href="#">
                         <img src={case18} alt="" />
                       </a>
                     </div>
@@ -197,116 +197,7 @@ export default function CaseStudy() {
             </div>
           </div>
         </section>
-        <section class="services-section">
-          <div class="auto-container">
-            <div class="row clearfix">
-              <div class="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  class="inner-box wow fadeInLeft"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">IT Strategy and Consultancy</a>
-                  </h3>
-                  <div class="icon">
-                    <img src={service1} alt="" />
-                  </div>
-                  <div class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing.
-                  </div>
-                  <a href="case-detail.html" class="read-more">
-                    Read More <span class="fa fa-angle-right"></span>
-                  </a>
-                </div>
-              </div>
 
-              <div class="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  class="inner-box wow fadeInUp"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">
-                      World Class <br /> Support
-                    </a>
-                  </h3>
-                  <div class="icon">
-                    <img src={service2} alt="" />
-                  </div>
-                  <div class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing.
-                  </div>
-                  <a href="case-detail.html" class="read-more">
-                    Read More <span class="fa fa-angle-right"></span>
-                  </a>
-                </div>
-              </div>
-
-              <div class="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  class="inner-box wow fadeInRight"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <h3>
-                    <a href="case-detail.html">
-                      IT Management Data <br /> Services
-                    </a>
-                  </h3>
-                  <div class="icon">
-                    <img src={service3} alt="" />
-                  </div>
-                  <div class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing.
-                  </div>
-                  <a href="case-detail.html" class="read-more">
-                    Read More <span class="fa fa-angle-right"></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="newsletter-section style-two">
-          <div class="auto-container">
-            <div class="inner-container">
-              <div class="form-column">
-                <div class="inner-column">
-                  <div class="title-box">
-                    <h2>Signup to our newsletter</h2>
-                    <div class="text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed <br /> do eiusmod tempor incididunt{" "}
-                    </div>
-                  </div>
-                  <div class="newsletter-form">
-                    <form method="post" action="contact.html">
-                      <div class="form-group">
-                        <span class="icon fa fa-envelope-o"></span>
-                        <input
-                          type="email"
-                          name="email"
-                          value=""
-                          placeholder="Enter your eamil address"
-                          required
-                        />
-                        <button
-                          type="submit"
-                          class="flaticon-next-2 submit-btn"
-                        ></button>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="member">
-                    Already member <a href="case-studio-2.html#">Sign in</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <Footer />
       </div>
     </>

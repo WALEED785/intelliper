@@ -63,10 +63,10 @@ export default function Footer() {
               </div>
               <ul className="info-list">
                 <li>
-                  <a href="tel:+88-016-826-48-11"> +88 016 826 48 11</a>
+                  <a style={{textDecoration: "none"}}> +88 016 826 48 11</a>
                 </li>
                 <li>
-                  <a href="mailto:info@gmail.com"> info@gmail.com</a>
+                  <a style={{textDecoration: "none"}}> info@gmail.com</a>
                 </li>
               </ul>
                 <li>MORE CONTACTS</li>
