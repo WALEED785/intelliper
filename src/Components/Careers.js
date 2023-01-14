@@ -53,7 +53,7 @@ function Careers() {
                 <div className="content">
                   <div className="title">Full time</div>
                   <h4>
-                    <a href="case-detail.html">Business Development Manager</a>
+                    <a href="#" style={{textDecoration: "none"}}>Business Development Manager</a>
                   </h4>
                   <div className="text">
                     This position is about growth and we are looking for an
@@ -62,7 +62,7 @@ function Careers() {
                     world.
                   </div>
                   <div className="btn-box">
-                    <a href="case-detail.html" className="theme-btn apply-btn">
+                    <a href="#" className="theme-btn btn-style-one" style={{textDecoration: "none"}}>
                       Apply Now
                     </a>
                   </div>
@@ -75,7 +75,7 @@ function Careers() {
                 <div className="content">
                   <div className="title">Full time</div>
                   <h4>
-                    <a href="case-detail.html">Middle Project Manager</a>
+                    <a href="#" style={{textDecoration: "none"}}>Middle Project Manager</a>
                   </h4>
                   <div className="text">
                     This position is about growth and we are looking for an
@@ -84,7 +84,7 @@ function Careers() {
                     world.
                   </div>
                   <div className="btn-box">
-                    <a href="case-detail.html" className="theme-btn apply-btn">
+                    <a href="#" className="theme-btn btn-style-one" style={{textDecoration: "none"}}>
                       Apply Now
                     </a>
                   </div>
@@ -97,7 +97,7 @@ function Careers() {
                 <div className="content">
                   <div className="title">Full time</div>
                   <h4>
-                    <a href="case-detail.html">IT Desktop Support</a>
+                    <a href="#" style={{textDecoration: "none"}}>IT Desktop Support</a>
                   </h4>
                   <div className="text">
                     This position is about growth and we are looking for an
@@ -106,7 +106,7 @@ function Careers() {
                     world.
                   </div>
                   <div className="btn-box">
-                    <a href="case-detail.html" className="theme-btn apply-btn">
+                    <a href="#" className="theme-btn btn-style-one" style={{textDecoration: "none"}}>
                       Apply Now
                     </a>
                   </div>
@@ -119,7 +119,7 @@ function Careers() {
                 <div className="content">
                   <div className="title">Full time</div>
                   <h4>
-                    <a href="case-detail.html">IT Operations Specialist</a>
+                    <a href="#" style={{textDecoration: "none"}}>IT Operations Specialist</a>
                   </h4>
                   <div className="text">
                     This position is about growth and we are looking for an
@@ -128,7 +128,7 @@ function Careers() {
                     world.
                   </div>
                   <div className="btn-box">
-                    <a href="case-detail.html" className="theme-btn apply-btn">
+                    <a href="#" className="theme-btn btn-style-one" style={{textDecoration: "none"}}>
                       Apply Now
                     </a>
                   </div>

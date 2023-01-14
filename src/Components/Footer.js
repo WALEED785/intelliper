@@ -28,14 +28,14 @@ export default function Footer() {
             <div className="footer-widget list-widget">
               <h3 style={{ fontSize: "14px"}}>SOLUTIONS</h3>
               <ul className="list">
-                <li><a>ServiceNow </a></li>
-                <li><a>Salesforce</a></li>
-                <li><a>BPO</a></li>
-                <li><a>Mulesoft</a></li>
-                <li><a>AWS</a></li>
-                <li><a>Cyber Security</a></li>
-                <li><a>Cloud Migration</a></li>
-                <li><a>Shopify</a></li>
+                <li><Link style={{textDecoration: "none"}} to='/servicenow-consulting-services'>ServiceNow </Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/sales-force-consulting'>Salesforce</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/business-process-outsourcing-services'>BPO</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/mulesoft-consulting-services'>Mulesoft</Link></li>
+                <li><Link style={{textDecoration: "none"}} to="/aws-consulting-services">AWS</Link></li>
+                <li><Link style={{textDecoration: "none"}} to="/cyber-security-services">Cyber Security</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/cloud-migration-services'>Cloud Migration</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/shopify-development-services'>Shopify</Link></li>
               </ul>
             </div>
           </div>
@@ -44,29 +44,29 @@ export default function Footer() {
             <div className="footer-widget list-widget">
               <h3 style={{ fontSize: "14px"}}>EMERGING TECHNOLOGIES</h3>
               <ul className="list">
-                <li><a>Data Science & AI</a></li>
-                <li><a>Internet Of Things</a></li>
-                <li><a>AR/VR</a></li>
-                <li><a>Blockchain</a></li>
-                <li><a>Robotic Process Automation</a></li>
-                <li><a>E-Learning</a></li>
-                <li><a>Healthcare</a></li>
+                <li><Link style={{textDecoration: "none"}} to='/data-science-consulting-services'>Data Science & AI</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/internet-of-things-iot-services'>Internet Of Things</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/augmented-reality-virtual-reality-services'>AR/VR</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/blockchain-consulting-services'>Blockchain</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/robotic-process-automation-services'>Robotic Process Automation</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/e-learning-software-development-services'>E-Learning</Link></li>
+                <li><Link style={{textDecoration: "none"}} to='/healthcare-software-development-services'>Healthcare</Link></li>
               </ul>
             </div>
           </div>
           <div className="footer-column col-lg-3 col-md-6 col-sm-12">
             <div className="footer-widget logo-widget">
               <div className="logo">
-                <a href="index.html">
+                <Link to='/'>
                   <img src={logo} alt="" />
-                </a>
+                </Link>
               </div>
               <ul className="info-list">
                 <li>
-                  <a style={{textDecoration: "none"}}> +88 016 826 48 11</a>
+                  <a style={{textDecoration: "none"}}> +92 324 11 63 049</a>
                 </li>
                 <li>
-                  <a style={{textDecoration: "none"}}> info@gmail.com</a>
+                  <a style={{textDecoration: "none"}}> intelliper@gmail.com</a>
                 </li>
               </ul>
                 <li>MORE CONTACTS</li>
@@ -74,11 +74,12 @@ export default function Footer() {
           <div class="footer-column col-lg-3 col-md-6 col-sm-12">
 						<div class="footer-widget address-widget">
 							<ul class="social-box d-flex">
-								<li><a class="fa fa-facebook-f"></a></li>
 								<li><a class="fa fa-linkedin"></a></li>
-								<li><a class="fa fa-slack"></a></li>
-								<li><a class="fa fa-dribbble"></a></li>
+								<li><a class="fa fa-envelope"></a></li>
+								<li><a class="fa fa-skype"></a></li>
+								<li><a class="fa fa-whatsapp"></a></li>
 							</ul>
+              {/* linkedin, whatsapp, skype */}
 						</div>
 					</div>
 
@@ -98,22 +99,19 @@ export default function Footer() {
           <div className="nav-column col-lg-6 col-md-12 col-sm-12">
             <ul>
               <li>
-                <a>Testimonials</a>
+                <Link to='/case-studies' style={{textDecoration: "none"}}>Testimonials</Link>
               </li>
               <li>
                 <a>Startups</a>
               </li>
               <li>
-                <a>Refer Us</a>
+                <Link to='/' style={{textDecoration: "none"}}>Refer Us</Link>
               </li>
               <li>
-                <a>Sitemap</a>
+                <Link to='/privacy-policy' style={{textDecoration: "none"}}>Privacy Policy</Link>
               </li>
               <li>
-                <a>Privacy Policy</a>
-              </li>
-              <li>
-                <a>Terms of use</a>
+                <Link to='/term-condition' style={{textDecoration: "none"}}>Terms of use</Link>
               </li>
             </ul>
           </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import AboutUs from './Components/AboutUs';
 import Careers from './Components/Careers';
 import CaseStudy from './Components/CaseStudy';
@@ -11,6 +12,7 @@ import DiscoveryWorkshopServices from './Components/DiscoveryWorkshopServices';
 import EmbeddedSoftwareDevelopment from './Components/EmbeddedSoftwareDevelopment';
 import Home from './Components/Home';
 import MobileAppDevelopmentServices from './Components/MobileAppDevelopmentServices';
+import PrivacyPolicy from './Components/PrivacyPolicy';
 import QATestingServices from './Components/QATestingServices';
 import AWSConsultingServices from './Components/Service-Solutions/AWSConsultingServices';
 import BusinessProcessOutsourcingservices from './Components/Service-Solutions/BusinessProcessOutsourcingservices';
@@ -29,6 +31,7 @@ import IOTServices from './Components/Service-Technologies/IOTServices';
 import RoboticProcessAutomationServices from './Components/Service-Technologies/RoboticProcessAutomationServices';
 import ServiceDetails from './Components/ServiceDetails';
 import Services from './Components/Services';
+import TermCondition from './Components/Term-Condition';
 import WebDevelopmentService from './Components/WebDevelopmentServices';
 function RouteNavigation() {
   return (
@@ -67,6 +70,11 @@ function RouteNavigation() {
       
       <Route path="/case-studies" element={<CaseStudy />} />
       <Route path="/contact" element={<ContactUS/>} />
+
+
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/term-condition" element={<TermCondition />} />
+      
     </Routes>
   </Router>
   )

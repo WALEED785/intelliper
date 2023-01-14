@@ -37,29 +37,27 @@ export default function ContactUS() {
                         <img src={map} alt="" />
                       </span>
                       <strong>Location</strong>
-                      Building 543 Bournadi bus stand Barisal 11454, Berlin,
-                      Germany
+                      605 Abdul Haque Rd, Block H-3 Johar Town, Lahore
                     </li>
                     <li>
                       <span class="icon"></span>
                       <strong>Email</strong>
-                      <a href="mailto:supportit@email.com">
-                        supportit@email.com
+                      <a style={{textDecoration: "none"}} href="mailto:intelliper@gmail.com">
+                        intelliper@gmail.com
                       </a>
                     </li>
                     <li>
                       <span class="icon"></span>
                       <strong>Phone</strong>
-                      <a href="tel:+112-334-106-610">+112 334 106 610</a>
-                      <br />
-                      <a href="tel:+8801-648-101-51">+8801 648 101 51</a>
+                      {/* <a href="tel:+8801-648-101-51">+8801 648 101 51</a> */}
+                      <a style={{textDecoration: "none"}} href="tel:+92-324-11-63-049"> +92 324 11 63 049</a>
                     </li>
                     <li>
                       <strong>Social</strong>
-                      <a href="contact.html#" class="fa fa-facebook-f"></a>
-                      <a href="contact.html#" class="fa fa-linkedin"></a>
-                      <a href="contact.html#" class="fa fa-slack"></a>
-                      <a href="contact.html#" class="fa fa-dribbble"></a>
+                      <a class="fa fa-linkedin"></a>
+                      <a class="fa fa-envelope"></a>
+                      <a class="fa fa-skype"></a>
+                      <a class="fa fa-whatsapp"></a>
                     </li>
                   </ul>
                 </div>
@@ -127,7 +125,7 @@ export default function ContactUS() {
 
                         <div class="form-group col-lg-12 col-md-12 col-sm-12">
                           <button
-                            class="theme-btn submit-btn"
+                            class="theme-btn btn-style-one"
                             type="submit"
                             name="submit-form"
                           >

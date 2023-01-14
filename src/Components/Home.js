@@ -6,9 +6,6 @@ import process1 from "../assets/images/resource/process-1.png";
 import process2 from "../assets/images/resource/process-2.png";
 import process3 from "../assets/images/resource/process-3.png";
 import process4 from "../assets/images/resource/process-4.png";
-import services1 from "../assets/images/resource/service-1.png";
-import services2 from "../assets/images/resource/service-2.png";
-import services3 from "../assets/images/resource/service-3.png";
 import success from "../assets/images/resource/success.png";
 import success1 from "../assets/images/resource/success-1.jpg";
 import business1 from "../assets/images/resource/business-1.png";
@@ -21,13 +18,9 @@ import author1 from "../assets/images/resource/author-1.jpg";
 import author2 from "../assets/images/resource/author-2.jpg";
 import author3 from "../assets/images/resource/author-3.jpg";
 import author4 from "../assets/images/resource/author-4.jpg";
-import case20 from "../assets/images/resource/case-20.jpg";
-import case21 from "../assets/images/resource/case-20.jpg";
-import case22 from "../assets/images/resource/case-20.jpg";
-import case1 from "../assets/images/resource/case-1.jpg";
-import case2 from "../assets/images/resource/case-2.jpg";
-import case3 from "../assets/images/resource/case-3.jpg";
 import discuss from '../assets/images/resource/discuss.png'
+import map from '../assets/images/icons/map.png'
+
 import Header from "./header";
 import Footer from "./Footer";
 // import { Carousel } from "react-bootstrap";
@@ -35,6 +28,8 @@ import Footer from "./Footer";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
+import SliderComponent from "./SliderComponent";
+import SimpleSlider from "./SliderComponent";
 
 
 
@@ -240,76 +235,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="process-section">
-          <div className="circle-layer"></div>
-          <div className="auto-container">
-            <div className="sec-title centered">
-              <div className="title">Work Process</div>
-              <h2>Our Working Process</h2>
-            </div>
-            <div className="row clearfix">
-              <div className="process-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <img src={process1} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Discovery</a>
-                  </h3>
-                  <div className="text">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
 
-              <div className="process-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <img src={process2} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Planning</a>
-                  </h3>
-                  <div className="text">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
-
-              <div className="process-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <img src={process3} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Practise</a>
-                  </h3>
-                  <div className="text">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
-
-              <div className="process-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div className="inner-box">
-                  <div className="icon">
-                    <img src={process4} alt="" />
-                  </div>
-                  <h3>
-                    <a href="case-detail.html">Delivery</a>
-                  </h3>
-                  <div className="text">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <section className="success-section">
           <div className="bottom-color-layer"></div>
@@ -371,7 +297,7 @@ export default function Home() {
                               efficiency, and retain complete control of teams.
                             </p>
                           </div>
-                          <button className="btn btn-success">
+                          <button className="btn-style-one theme-btn">
                             BUILD YOUR TEAM
                           </button>
                         </div>
@@ -530,65 +456,123 @@ export default function Home() {
         <section className="case-study-section-two">
           <div className="auto-container">
             <div className="sec-title style-two centered">
-              <div className="title">`Case studies</div>
+              <div className="title">Case studies</div>
               <h2>Digital IT Case studies</h2>
             </div>
           </div>
-          <Carousel
-            customRightArrow={<CustomRightArrow />}
-            arrows={false} 
-            swipeable={false}
-            draggable={false}
-            showDots={true}
-            responsive={responsive}
-            ssr={true}
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={1000}
-            keyBoardControl={true}
-            customTransition="all .5"
-            transitionDuration={500}
-            containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile"]}
-            dotListClass="custom-dot-list-style"
-            itemClass="carousel-item-padding-40-px" 
-          >
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case2} /></div>
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case1} /></div>
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case3} /></div>
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case1} /></div>
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case2} /></div>
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case3} /></div>
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case3} /></div>
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case2} /></div>
-            <div style={{display: "flex", justifyContent: "center", height: "400px"}}><img src={case1} /></div>
-            <div style={{display: "flex", justifyContent: "center"}}><img src={case3} /></div>
-            <div style={{display: "flex", justifyContent: "center"}}><img src={case2} /></div>
-            <div style={{display: "flex", justifyContent: "center"}}><img src={case1} /></div>
-          </Carousel>
+          {/* <SimpleSlider /> */}
+          Slider
         </section>
 
-        <section class="discuss-section">
+        <section class="contact-page-section" style={{margin: "100px 0px"}}>
         <div class="auto-container">
-          <div class="inner-container">
-            <div class="color-layer"></div>
+          <div class="inner-container" style={{width: "1200px"}}>
             <div class="row clearfix">
-              <div class="title-column col-lg-8 col-md-12 col-sm-12">
-                <div class="inner-column">
-                  <h3>
-                    Let's co-create the right <br /> digital IT solution for
-                    your business.
-                  </h3>
-                  <a href="contact.html#" class="theme-btn btn-style-one">
-                    <span class="txt">Let’s Discuss</span>
-                  </a>
+              <div class="info-block col-lg-4 col-md-12 col-sm-12">
+              <div class="inner-column">
+                  <ul class="list">
+                    <li>
+                      <span class="icon">
+                        <img src={map} alt="" />
+                      </span>
+                      <strong>Location</strong>
+                      605 Abdul Haque Rd, Block H-3 Johar Town, Lahore
+                    </li>
+                    <li>
+                      <span class="icon"></span>
+                      <strong>Email</strong>
+                      <a style={{textDecoration: "none"}} href="mailto:intelliper@gmail.com">
+                        intelliper@gmail.com
+                      </a>
+                    </li>
+                    <li>
+                      <span class="icon"></span>
+                      <strong>Phone</strong>
+                      {/* <a href="tel:+8801-648-101-51">+8801 648 101 51</a> */}
+                      <a style={{textDecoration: "none"}} href="tel:+92-324-11-63-049"> +92 324 11 63 049</a>
+                    </li>
+                    <li>
+                      <strong>Social</strong>
+                      <a class="fa fa-linkedin"></a>
+                      <a class="fa fa-envelope"></a>
+                      <a class="fa fa-skype"></a>
+                      <a class="fa fa-whatsapp"></a>
+                    </li>
+                  </ul>
                 </div>
               </div>
 
-              <div class="image-column col-lg-4 col-md-12 col-sm-12">
+              <div class="form-block col-lg-8 col-md-12 col-sm-12">
                 <div class="inner-column">
-                  <div class="image">
-                    <img src={discuss} alt="" />
+                  <div class="title-box">
+                    <h3>Send a message</h3>
+                    <div class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut blandit <br /> arcu in pretium.
+                    </div>
+                  </div>
+
+                  <div class="contact-form">
+                    <form
+                      method="post"
+                      action="https://themazine.com/html/Esonit/Esonit/sendemail.php"
+                      id="contact-form"
+                    >
+                      <div class="row clearfix">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                          <input
+                            type="text"
+                            name="username"
+                            placeholder="Name"
+                            required
+                          />
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                          <input
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                            required
+                          />
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                          <input
+                            type="text"
+                            name="phone"
+                            placeholder="Phone"
+                            required
+                          />
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                          <input
+                            type="text"
+                            name="subject"
+                            placeholder="Subject"
+                            required
+                          />
+                        </div>
+
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                          <textarea
+                            name="message"
+                            placeholder="message"
+                          ></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                          <button
+                            class="theme-btn btn-style-one"
+                            type="submit"
+                            name="submit-form"
+                          >
+                            Submit Message
+                          </button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -596,6 +580,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
 
         <Footer />
       </div>

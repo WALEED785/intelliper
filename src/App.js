@@ -9,10 +9,6 @@ function App() {
   return (
     <>
     <RouteNavigation />
-    {/* <Routes>
-      <Route path="/" element={<Home/>} />
-    </Routes> */}
-    {/* <Home/> */}
     </>
   );
 }
