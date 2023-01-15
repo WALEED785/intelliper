@@ -86,14 +86,14 @@ export default function AWSConsultingServices() {
             <div class="text-aws">
               {" "}
               <p class="sub-aws">WHY US?</p>{" "}
-              <h2 class="home-heading-two ">AWS At Tkxel</h2>{" "}
+              <h2 class="home-heading-two ">AWS At intelliper Solution</h2>{" "}
               <p class="body-text">
                 Amazon Web Services is a cloud computing platform with extended
                 functionalities as it introduces the concoction of Platform as a
                 Service, Infrastructure as a Service and Software as a Service.
               </p>{" "}
               <p class="body-text">
-                Tkxel specializes in building web &amp; mobile applications
+              intelliper Solution specializes in building web &amp; mobile applications
                 using AWS. Our certified developers build secure, scalable and
                 high-performance applications. We deliver innovative solutions
                 and transform complex experiences into products that customers

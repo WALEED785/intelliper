@@ -197,7 +197,7 @@ export default function MulesoftConsultingServices() {
                   {" "}
                   <h3>Offsite</h3>{" "}
                   <p>
-                    A project is carried out at Tkxel’s software development
+                    A project is carried out at intelliper solution's software development
                     center from concept to a fully functional.
                   </p>{" "}
                 </div>{" "}

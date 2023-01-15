@@ -920,7 +920,7 @@ export default function SalesforceConsultingServices() {
                   />{" "}
                   <div class="text">
                     {" "}
-                    <a href="https://tkxel.com/blog/top-digital-transformation-trends-for-businesses-2019">
+                    <a href="#">
                       Top Digital Transformation Trends For Businesses.{" "}
                       <i class="la la-arrow-right"></i>
                     </a>{" "}
@@ -941,7 +941,7 @@ export default function SalesforceConsultingServices() {
                   />{" "}
                   <div class="text">
                     {" "}
-                    <a href="https://tkxel.com/blog/4-things-to-consider-while-selecting-your-software-outsourcing-partner-in-2020">
+                    <a href="#">
                       4 Things To Consider While Selecting Your Software
                       Outsourcing Partner In 2020.{" "}
                       <i class="la la-arrow-right"></i>

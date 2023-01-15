@@ -75,7 +75,7 @@ export default function ELearningServices() {
             <div class="robot-text">
                 <p class="robot-subtext">WHY US?</p>
                 <h2 class="home-heading-two heading-read">Delivering Impact</h2>
-                <p>Tkxel has been developing and upgrading eLearning solutions for over a 
+                <p>intelliper solution's has been developing and upgrading eLearning solutions for over a 
                     decade and has delivered tens of LMS projects to education sector, 
                     corporate sector and non profit sector.</p>
             </div>

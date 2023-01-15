@@ -248,7 +248,7 @@ export default function CyberSecurityServices() {
         <section class="service-section cybers2">
           <div class="container">
             <div class="offer-title">
-              <p>WHY TKXEL?</p>
+              <p>WHY intelliper solution's?</p>
               <h2 class="home-heading-two heading-read">
                 Stop threats. Prove compliance. Grow your business.
               </h2>
@@ -265,7 +265,7 @@ export default function CyberSecurityServices() {
                 />
                 <h3>Deep cyber risk knowledge</h3>
                 <p>
-                  Tkxel’s dedicated Cyber Underwriters &amp; Risk Engineers stay
+                intelliper solution's dedicated Cyber Underwriters &amp; Risk Engineers stay
                   up to date with evolving risks to help you protect your
                   business and build cyber resilience.
                 </p>

@@ -58,7 +58,7 @@ export default function DevOpsServices() {
                   </h2>
                   <div class="text">
                     DevOps solutions automate away inefficiencies and improve
-                    the quality and security of software. Tkxel DevOps
+                    the quality and security of software. intelliper solution's DevOps
                     consulting services help companies optimize their IT Team's
                     Performance.
                   </div>

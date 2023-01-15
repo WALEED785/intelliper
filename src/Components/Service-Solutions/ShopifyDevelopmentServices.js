@@ -108,7 +108,7 @@ export default function ShopifyDevelopmentServices() {
                 <h3>Themes &amp; Customization Services</h3>{" "}
                 <p>
                   Make your Shopify store stand out from the crowd with a high
-                  quality user experience. Tkxel has expert Shopify designers to
+                  quality user experience. intelliper solution's has expert Shopify designers to
                   ensure that your Shopify store is visually appealing on mobile
                   and web.{" "}
                 </p>{" "}
@@ -327,7 +327,7 @@ export default function ShopifyDevelopmentServices() {
             <div class="stat-title">
               {" "}
               <h2 class="home-heading-two">
-                Why Choose Tkxel for E-commerce Development
+                Why Choose intelliper solution's for E-commerce Development
               </h2>{" "}
             </div>{" "}
             <div class="stat-wrapper">
@@ -364,7 +364,7 @@ export default function ShopifyDevelopmentServices() {
             <div class="offer-title">
               {" "}
               <h2 class="home-heading-two">
-                Advantages of choosing tkxel as your shopify partner
+                Advantages of choosing intelliper solution's as your shopify partner
               </h2>{" "}
             </div>{" "}
             <div class="offer-cards">

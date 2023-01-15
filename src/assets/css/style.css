@@ -5263,15 +5263,21 @@
 
 .case-block-three .inner-box .content-column .content{
 	position:relative;
-	padding-top:80px;
+	padding-top:60px;
 	padding-left:20px;
 }
 
 .case-block-three .inner-box .content-column .title{
-	position:relative;
-	color:#f15d52;
-	font-size:24px;
-	margin-bottom:18px;
+	position: relative;
+    color: #f15d52;
+    font-size: 24px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.case-block-three .inner-box .content-column .title svg {
+    padding-right: 10px;
 }
 
 .case-block-three .inner-box .content-column h3{
@@ -5329,7 +5335,7 @@
 .case-block-three .inner-box .image-column .image{
 	position:relative;
 	overflow:hidden;
-	background-color:#f15d52;
+	/* background-color:#f15d52; */
 }
 
 .case-block-three .inner-box .image-column .image img{

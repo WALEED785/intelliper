@@ -87,7 +87,7 @@ export default function CloudMigrationServices() {
                   />
                   <h2 class="head">Swift Migration</h2>
                   <p>
-                    With Tkxel's swift migration services, now you can get to
+                    With intelliper solution's swift migration services, now you can get to
                     your new cloud infrastructure faster and start realizing
                     your ROI right away.
                   </p>
